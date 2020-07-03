@@ -1,0 +1,45 @@
+.recuadro {
+    height: 500px;
+    border: solid blue 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: linear-gradient(to bottom, #c02425, #f0cb35, #c02425);
+}
+
+.recuadro div {
+    width: 250px;
+    height: 250px;
+    background-image: url(assets/img2.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#flecha {
+    background-image: url(assets/flecha.png);
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    /* background-image: url(assets/img2.jpg); */
+    /* background-image: radial-gradient(to center, black 50%); */
+    background: radial-gradient( rgba(255, 255, 255, 0), rgba(0, 0, 0) 90%), url(assets/img2.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#img3w {
+    background-image: url(assets/img3.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#img3 {
+    /* background-image: url(assets/img2.jpg); */
+    /* background-image: radial-gradient(to center, black 50%); */
+    background: radial-gradient( rgba(255, 255, 255, 0), rgb(161, 102, 47) 90%), url(assets/img3.jpg);
+    background-position: center;
+    background-size: contain;
+}
